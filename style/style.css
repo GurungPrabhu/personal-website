@@ -119,6 +119,11 @@ h3 * {
   color: var(--text-color-pink);
 }
 
+.social-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
 .padding-bottom-small {
   padding-bottom: 0.4rem;
 }
@@ -182,6 +187,7 @@ h3 * {
 .logo {
   color: var(--text-color-light);
   font-weight: 700;
+  font-size: 1.4rem;
 }
 
 .hamburger {
@@ -421,7 +427,8 @@ textarea {
   display: inline-block;
 }
 .footer--logo img {
-  flex-grow: 1;
+  width: 1.4rem;
+  height: auto;
 }
 
 .footer--links {

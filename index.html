@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="./style/style.css" />
     <script src="./script/index.js"></script>
-    <title>Document</title>
+    <title>Prabhu Gurung</title>
   </head>
   <body>
     <main>
@@ -20,10 +20,10 @@
         <span class="logo">Prabhu.G</span>
         <nav id="top-nav">
           <ul class="top-nav-menu top-nav-menu--hidden">
-            <li class="text-gray"><a>Experience</a></li>
-            <li class="text-gray"><a>Work</a></li>
-            <li class="text-gray"><a>Photography</a></li>
-            <li class="text-gray"><a>Contact</a></li>
+            <li class="text-gray"><a href="#work-experience">Experience</a></li>
+            <li class="text-gray"><a href="#skill">Skills</a></li>
+            <li class="text-gray"><a href="#project">Project</a></li>
+            <li class="text-gray"><a href="#contact">Contact</a></li>
           </ul>
           <div id="mobile-side-nav" onclick="toggleSideNavMenu()">
             <button href="javascript:void(0);">
@@ -94,7 +94,7 @@
       </div>
     </section>
 
-    <section class="section split-section">
+    <section class="section split-section" id>
       <div>
         <h2 class="padding-bottom-small text-dark">Philosophy & values</h2>
         <p class="text-gray">
@@ -122,7 +122,7 @@
       />
     </div>
 
-    <section class="section skill-set-section">
+    <section class="section skill-set-section" id="skill">
       <div class="skill-set-section--title">
         <h2 class="padding-bottom-small">Skillset</h2>
         <p class="text-gray padding-bottom-large">
@@ -221,7 +221,7 @@
       </div>
     </section>
 
-    <section class="section project-section">
+    <section class="section project-section" id="project">
       <div class="padding-bottom-large project-section--title">
         <span class="padding-bottom-small text-gray">My Project</span>
         <h2>Work that I’ve done for the past 8 years</h2>
@@ -288,7 +288,12 @@
           that you check out my Instagram. I’m an avid traveller and I capture
           the best moments that I would love to cherish with the world
         </p>
-        <a href="#" class="link text-dark">Follow me on IG</a>
+        <a
+          href="https://www.instagram.com/prabhu_gurung/"
+          target="_blank"
+          class="link text-dark"
+          >Follow me on IG</a
+        >
       </div>
       <div>
         <img
@@ -402,7 +407,7 @@
       </div>
     </section>
 
-    <section class="section contact-section">
+    <section class="section contact-section" id="contact">
       <div>
         <h2 class="padding-bottom-small">Let's talk business</h2>
         <p class="text-gray padding-bottom-large">
@@ -425,10 +430,33 @@
 
     <footer class="footer section">
       <div class="footer--logo">
-        <span>Prabhu.G</span>
-        <img src="" alt="twitter" />
-        <img src="" alt="linkedin" />
-        <img src="" alt="website" />
+        <span class="logo">Prabhu.G</span>
+        <div class="social-links">
+          <div>
+            <a
+              href="https://www.linkedin.com/in/prabhu-gurung-04563482/"
+              target="_blank"
+            >
+              <img
+                src="https://img.icons8.com/fluency/48/000000/linkedin.png"
+                class="social-link"
+              />
+            </a>
+          </div>
+          <div>
+            <a href="https://github.com/GurungPrabhu" target="_blank">
+              <img
+                src="https://img.icons8.com/fluency/48/000000/github.png"
+                class="social-link"
+              />
+            </a>
+          </div>
+          <div>
+            <a href="mailto:grg_prabhu@yahoo.com">
+              <img src="./assets//icons/email.svg" class="social-link" />
+            </a>
+          </div>
+        </div>
       </div>
       <div class="footer--links">
         <a href="">Home</a>
@@ -439,9 +467,7 @@
         <a href="">Blog</a>
         <a href="">Reading List</a>
       </div>
-      <span class="footer--copyright"
-        >Not Copyright 2020 • Robin Williams. Webflow cloneable</span
-      >
+      <span class="footer--copyright">Copyright 2020 • Prabhu Gurung</span>
     </footer>
   </body>
 </html>
