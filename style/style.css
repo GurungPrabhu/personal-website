@@ -413,6 +413,7 @@ textarea {
   padding: 1.2rem 1rem;
   background-color: var(--bg-gray);
   display: grid;
+  margin-bottom: 0;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
