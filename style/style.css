@@ -179,7 +179,7 @@ h3 * {
 }
 
 .section {
-  max-width: 1200px;
+  max-width: 1700px;
   padding: 3rem 1.5rem;
   margin: 2rem auto;
 }
@@ -346,7 +346,7 @@ header {
 .image-cover {
   min-height: 20rem;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1700px;
   object-fit: cover;
   margin-inline: auto;
 }
@@ -458,7 +458,7 @@ textarea {
 
   main {
     display: flex;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: auto;
     position: relative;
   }
@@ -659,7 +659,7 @@ textarea {
     display: inline-flex;
     width: 100%;
     background: linear-gradient(90deg, transparent 40%, var(--bg-gray) 40%);
-    height: min(60vw, 30rem);
+    height: min(50vw, 40rem);
   }
   .cover--image {
     position: relative;
@@ -682,7 +682,7 @@ textarea {
     background-color: transparent;
   }
   .cover--content h1 {
-    font-size: clamp(1.2rem, 0.3rem + 3vw, 2.5rem);
+    font-size: clamp(1.2rem, 0.3rem + 3vw, 3rem);
   }
   .project-card img {
     min-height: 20rem;
