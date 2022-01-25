@@ -137,7 +137,7 @@ h3 * {
 }
 
 .icon-logo {
-  width: 4rem;
+  width: 2.5rem;
   height: auto;
 }
 
@@ -180,7 +180,7 @@ h3 * {
 
 .section {
   max-width: 1700px;
-  padding: 3rem 1.5rem;
+  padding: 3rem 3rem;
   margin: 2rem auto;
 }
 
@@ -450,7 +450,7 @@ textarea {
 }
 @media (min-width: 500px) {
   h2 {
-    font-size: min(4.7vw, 3.5rem);
+    font-size: min(4.7vw, 3rem);
   }
   .cover--content p {
     display: none;
@@ -682,7 +682,7 @@ textarea {
     background-color: transparent;
   }
   .cover--content h1 {
-    font-size: clamp(1.2rem, 0.3rem + 3vw, 3rem);
+    font-size: clamp(1.2rem, 0.5rem + 3vw, 3.4rem);
   }
   .project-card img {
     min-height: 20rem;
