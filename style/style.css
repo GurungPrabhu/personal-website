@@ -699,3 +699,13 @@ input:-webkit-autofill:active {
     object-fit: cover;
   }
 }
+
+.btn-filled:disabled:hover,
+.btn-filled:disabled {
+  background-color: var(--bg-blue);
+  cursor: not-allowed;
+}
+
+.form-disabled * {
+  cursor: not-allowed;
+}

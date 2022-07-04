@@ -359,15 +359,19 @@
           work with me.
         </p>
       </div>
-      <div>
-        <form action="" class="contact-form">
+      <div class="form-disabled">
+        <form
+          action="mailto:you@yourdmainhere.com"
+          method="post"
+          class="contact-form"
+        >
           <label for="name">Name</label>
-          <input type="text" name="name" />
+          <input type="text" name="name" disabled />
           <label for="email">Email</label>
-          <input type="email" name="email" />
+          <input type="email" name="email" disabled />
           <label for="text">Message</label>
-          <textarea rows="3"></textarea>
-          <button class="btn btn-filled">Let's get started!</button>
+          <textarea rows="3" disabled></textarea>
+          <button class="btn btn-filled" disabled>Coming soon!</button>
         </form>
       </div>
     </section>
