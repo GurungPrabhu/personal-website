@@ -709,3 +709,7 @@ input:-webkit-autofill:active {
 .form-disabled * {
   cursor: not-allowed;
 }
+
+textarea {
+  resize: none;
+}
