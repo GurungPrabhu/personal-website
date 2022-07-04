@@ -4,6 +4,7 @@
   --text-color-gray: #8491a0;
   --text-color-light: #ffffff;
   --text-color-dark: #181823;
+  --text-color-yellow: #d5df21;
 
   --text-color-green: #3cc74e;
   --text-color-blue: #609bff;
@@ -113,6 +114,10 @@ h3 * {
 
 .text-blue {
   color: var(--text-color-blue);
+}
+
+.text-yellow {
+  color: var(--text-color-yellow);
 }
 
 .text-pink {
@@ -487,7 +492,7 @@ input:-webkit-autofill:active {
   }
   .work-experience--body > * {
     flex-grow: 1;
-    min-width: 30%;
+    min-width: 23%;
   }
   .split-section {
     display: flex;
