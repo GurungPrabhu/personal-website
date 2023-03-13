@@ -1,9 +1,13 @@
-# personal-website
+# Personal-website
 Personal website: Prabhu Gurung
 
 
-## Anybody who wants to suggest me better implementation of code in this website, every suggestion are heartly welcome. 
 
 ## Design was taken from figma open source community
+### Skill Showcased: 
+- Figma code implementation
+- Responsive website
 
-link: www.prabhug.com.np
+Link of Figma design: https://www.figma.com/file/MqO7ZrMbGl6oyLTuEN1sDl/Free-Portfolio-Template---Figma-%26-Webflow-Course-(Community)?node-id=2056%3A37&t=t3MmUMJ3dppvYWIt-1
+
+Website link: www.prabhug.com.np
